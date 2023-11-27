@@ -4,6 +4,7 @@ import Paket from "./components/Pages/Paket";
 import Home from "./components/Pages/Home";
 import Login from "./components/Pages/Auth/Login";
 import Register from "./components/Pages/Auth/Register";
+import Order from "./components/Pages/User/Order";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/paket" element={<Paket />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/order" element={<Order />} />
       </Routes>
     </Router>
   );
